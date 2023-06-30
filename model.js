@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const emailValidator = require('email-validator');
 
-const link = `mongodb+srv://abhijeet180105:b6a3pTIt0Sk7gMr7@cluster0.jm8wmdw.mongodb.net/?retryWrites=true&w=majority`
+const link = prcoess.env.DB;
 //  mongodb+srv://abhijeet180105:<password>@cluster0.jm8wmdw.mongodb.net/
 mongoose.connect(link, {
     useNewUrlParser: true,
